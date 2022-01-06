@@ -22,7 +22,7 @@ void preTraverse(TreeNode *node, std::vector<int> &res);
 
 void postTraverse(TreeNode *node, std::vector<int> &res);
 
-void middleTraverse(TreeNode *node, std::vector<int> &res);
+void inOrderTraverse(TreeNode *node, std::vector<int> &res);
 
 // Iterative Traversal
 std::vector<int> preTraverseIt(TreeNode *node);

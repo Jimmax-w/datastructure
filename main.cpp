@@ -9,6 +9,6 @@ int main() {
     auto btree = initialBtree();
     iterRun(btree);
     inDepthRun(btree);
-
+    freeTree(btree);
     return 0;
 }

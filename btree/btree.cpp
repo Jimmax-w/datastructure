@@ -44,7 +44,7 @@ void inDepthRun(TreeNode *btree) {
 
     std::cout << "In-order Traversal: ";
     std::vector<int> inOrder;
-    middleTraverse(btree, inOrder);
+    inOrderTraverse(btree, inOrder);
     printVector(inOrder);
 
 }

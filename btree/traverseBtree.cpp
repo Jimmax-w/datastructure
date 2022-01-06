@@ -66,16 +66,16 @@ void postTraverse(TreeNode *node, std::vector<int> &res) {
     res.push_back(node->val);
 }
 
-void middleTraverse(TreeNode *node, std::vector<int> &res) {
+void inOrderTraverse(TreeNode *node, std::vector<int> &res) {
     if (node == nullptr) {
         return;
     }
     if (node->lchild != nullptr) {
-        middleTraverse(node->lchild, res);
+        inOrderTraverse(node->lchild, res);
     }
     res.push_back(node->val);
     if (node->rchild != nullptr) {
-        middleTraverse(node->rchild, res);
+        inOrderTraverse(node->rchild, res);
     }
 }
 
