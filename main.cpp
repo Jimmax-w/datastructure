@@ -3,12 +3,10 @@
 //
 
 #include "btree.h"
-
+#include "sort/maxHeapSort.h"
 
 int main() {
-    auto btree = initialBtree();
-    iterRun(btree);
-    inDepthRun(btree);
-    freeTree(btree);
+    doSort();
+    sortByPriorityQueue();
     return 0;
 }

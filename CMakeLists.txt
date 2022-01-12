@@ -10,4 +10,4 @@ add_executable(datastructure
         btree/traverseBtree.h
         btree/btree.cpp
         btree/btree.h
-        main.cpp)
+        main.cpp sort/maxHeapSort.cpp sort/maxHeapSort.h)
