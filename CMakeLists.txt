@@ -10,4 +10,11 @@ add_executable(datastructure
         btree/traverseBtree.h
         btree/btree.cpp
         btree/btree.h
-        main.cpp sort/maxHeapSort.cpp sort/maxHeapSort.h)
+        main.cpp
+        sort/maxHeapSort.cpp sort/maxHeapSort.h
+        btree/onSideMax.cpp btree/onSideMax.h
+        algorithm/singleNumber.cpp algorithm/singleNumber.h
+        algorithm/reverseNumber.cpp algorithm/reverseNumber.h
+        algorithm/reverseString.cpp algorithm/reverseString.h
+        algorithm/countCharacter.cpp algorithm/countCharacter.h
+        algorithm/bitcounter.cpp algorithm/bitcounter.h)
